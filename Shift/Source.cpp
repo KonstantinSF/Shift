@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include<Windows.h>
 using namespace std;
 #define tab "\t"
@@ -10,7 +10,7 @@ void main()
 	for (int i = 0; i < n; i++)cout << arr[i] << tab; 
 	cout << endl; 
 	int shift;
-	cout << "Ââåäèòå êîýôôèöèåíò ñìåùåíèÿ:"; cin >> shift;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾ÑÑ„Ñ„Ð¸Ñ†Ð¸ÐµÐ½Ñ‚ ÑÐ¼ÐµÑ‰ÐµÐ½Ð¸Ñ:"; cin >> shift;
 	for (int i = 0; i < shift; i++)
 	{
 		int buffer = arr[0];
